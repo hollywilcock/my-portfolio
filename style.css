@@ -17,6 +17,7 @@ h1{
     display: flex;
     display: center;
 }
+
 .container1{
     margin-left:0 auto;
     margin-right : 0 auto;
@@ -25,20 +26,37 @@ h1{
 
 header{
     background-color:white;
-height: 70px ;
+height: 60px ;
 width: 896px ;
+margin: 10px ;
 }
 
 nav {
     background-color:yellow;
+    
     height: 40px ;
     width: 896px ;
 }
+
+.nav-links{
+    list-style: none;
+    display: inline-grid;
+    height: 40px;
+    width: 90px;
+}
+button{
+    background-color:yellow;
+    font-family:'Oswald', sans-serif;
+    text-transform: uppercase;
+    border: 2.5px;
+    border-color:black;
+}
+
 main{
     background-color:white;
-    height: 400px ;
+    height: 540px ;
     width: 896px ;
-    margin: 0 
+    margin: 0 auto;
 
 }
 #imagelist {
@@ -47,9 +65,12 @@ main{
     margin: 0 auto;
 }
 #imagelist {
-    margin: 2px;
-    border: 2px solid transparent;
+
+    padding: 1px;
+    margin: 0px;
+    border: 0px solid transparent;
     display: inline-block;
+    display:center;
     border-radius: 10px ;
     opacity: .5;
 }
@@ -62,7 +83,14 @@ img{
     width: 180px ;
 }
 footer {
-    background-color:white;
-    height: 100px ;
+    background-color:yellow;
+    height: 180px ;
     width: 896px ;
+    margin: 0px;
+    padding: 15px;
+
+}
+footer>h2 {
+    padding-left: 20px;
+    margin-top: 10px;
 }
